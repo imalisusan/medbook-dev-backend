@@ -25,6 +25,7 @@ class UpdateRequest extends FormRequest
             'name' => 'required|string|max:255',
             'date_of_birth' => 'required|date',
             'gender_id' => 'required', 
+            'service_id' => 'required',
             'comments' => 'required|string',
         ];
     }

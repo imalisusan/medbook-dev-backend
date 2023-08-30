@@ -25,6 +25,7 @@ class PatientController extends Controller
             'name' => $validated['name'],
             'date_of_birth' => $validated['date_of_birth'],
             'gender_id' => $validated['gender_id'],
+            'service_id' => $validated['service_id'],
             'comments' => $validated['comments'],
         ]);
 
@@ -45,6 +46,7 @@ class PatientController extends Controller
             'name' => $validated['name'],
             'date_of_birth' => $validated['date_of_birth'],
             'gender_id' => $validated['gender_id'],
+            'service_id' => $validated['service_id'],
             'comments' => $validated['comments'],
         ]);
 
