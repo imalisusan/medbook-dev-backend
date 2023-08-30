@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             GenderSeeder::class,
             ServiceSeeder::class,
+            PatientSeeder::class,
         ]);
     }
 }
